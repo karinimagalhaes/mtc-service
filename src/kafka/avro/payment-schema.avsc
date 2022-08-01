@@ -1,0 +1,23 @@
+{
+    "namespace": "com.demo.avro",
+    "type": "record",
+    "name": "Payment",
+    "fields": [
+        {
+            "name": "ppayment",
+            "type": "string"
+        },
+        {
+            "name": "preceive",
+            "type": "string"
+        },
+        {
+            "name": "amount",
+            "type": "double"
+        },
+        {
+            "name": "approved",
+            "type": "boolean"
+        }
+    ]
+}
